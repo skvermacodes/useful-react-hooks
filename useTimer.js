@@ -61,3 +61,5 @@ const useTimer = (defaultClock = 0, defaultRunningStatus =false, mode='HMS') => 
 
     return [timerData, isTimerRunning, togglePlayPause, handleReset]
 }
+
+export default useTimer;
